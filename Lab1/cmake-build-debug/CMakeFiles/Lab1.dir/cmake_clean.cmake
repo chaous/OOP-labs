@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Lab1.dir/GeronFormula.cpp.o"
-  "CMakeFiles/Lab1.dir/Hexagon.cpp.o"
-  "CMakeFiles/Lab1.dir/Pentagon.cpp.o"
-  "CMakeFiles/Lab1.dir/Rhombus.cpp.o"
+  "CMakeFiles/Lab1.dir/hexagon.cpp.o"
   "CMakeFiles/Lab1.dir/main.cpp.o"
+  "CMakeFiles/Lab1.dir/pentagon.cpp.o"
+  "CMakeFiles/Lab1.dir/rhombus.cpp.o"
   "Lab1"
   "Lab1.pdb"
 )

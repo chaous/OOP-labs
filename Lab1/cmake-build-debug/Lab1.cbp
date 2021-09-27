@@ -80,34 +80,34 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Figure.h">
-			<Option target="Lab1"/>
-		</Unit>
 		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.cpp">
 			<Option target="Lab1"/>
 		</Unit>
 		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.h">
 			<Option target="Lab1"/>
 		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Hexagon.cpp">
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/figure.h">
 			<Option target="Lab1"/>
 		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Hexagon.h">
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/hexagon.cpp">
 			<Option target="Lab1"/>
 		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Pentagon.cpp">
-			<Option target="Lab1"/>
-		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Pentagon.h">
-			<Option target="Lab1"/>
-		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Rhombus.cpp">
-			<Option target="Lab1"/>
-		</Unit>
-		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/Rhombus.h">
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/hexagon.h">
 			<Option target="Lab1"/>
 		</Unit>
 		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/main.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/pentagon.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/pentagon.h">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/rhombus.cpp">
+			<Option target="Lab1"/>
+		</Unit>
+		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/rhombus.h">
 			<Option target="Lab1"/>
 		</Unit>
 		<Unit filename="/Users/aleksejrozkov/CLionProjects/Lab1/CMakeLists.txt">

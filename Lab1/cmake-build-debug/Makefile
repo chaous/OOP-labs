@@ -153,77 +153,29 @@ GeronFormula.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/GeronFormula.cpp.s
 .PHONY : GeronFormula.cpp.s
 
-Hexagon.o: Hexagon.cpp.o
-.PHONY : Hexagon.o
+hexagon.o: hexagon.cpp.o
+.PHONY : hexagon.o
 
 # target to build an object file
-Hexagon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Hexagon.cpp.o
-.PHONY : Hexagon.cpp.o
+hexagon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/hexagon.cpp.o
+.PHONY : hexagon.cpp.o
 
-Hexagon.i: Hexagon.cpp.i
-.PHONY : Hexagon.i
-
-# target to preprocess a source file
-Hexagon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Hexagon.cpp.i
-.PHONY : Hexagon.cpp.i
-
-Hexagon.s: Hexagon.cpp.s
-.PHONY : Hexagon.s
-
-# target to generate assembly for a file
-Hexagon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Hexagon.cpp.s
-.PHONY : Hexagon.cpp.s
-
-Pentagon.o: Pentagon.cpp.o
-.PHONY : Pentagon.o
-
-# target to build an object file
-Pentagon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Pentagon.cpp.o
-.PHONY : Pentagon.cpp.o
-
-Pentagon.i: Pentagon.cpp.i
-.PHONY : Pentagon.i
+hexagon.i: hexagon.cpp.i
+.PHONY : hexagon.i
 
 # target to preprocess a source file
-Pentagon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Pentagon.cpp.i
-.PHONY : Pentagon.cpp.i
+hexagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/hexagon.cpp.i
+.PHONY : hexagon.cpp.i
 
-Pentagon.s: Pentagon.cpp.s
-.PHONY : Pentagon.s
-
-# target to generate assembly for a file
-Pentagon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Pentagon.cpp.s
-.PHONY : Pentagon.cpp.s
-
-Rhombus.o: Rhombus.cpp.o
-.PHONY : Rhombus.o
-
-# target to build an object file
-Rhombus.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Rhombus.cpp.o
-.PHONY : Rhombus.cpp.o
-
-Rhombus.i: Rhombus.cpp.i
-.PHONY : Rhombus.i
-
-# target to preprocess a source file
-Rhombus.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Rhombus.cpp.i
-.PHONY : Rhombus.cpp.i
-
-Rhombus.s: Rhombus.cpp.s
-.PHONY : Rhombus.s
+hexagon.s: hexagon.cpp.s
+.PHONY : hexagon.s
 
 # target to generate assembly for a file
-Rhombus.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Rhombus.cpp.s
-.PHONY : Rhombus.cpp.s
+hexagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/hexagon.cpp.s
+.PHONY : hexagon.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -249,6 +201,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pentagon.o: pentagon.cpp.o
+.PHONY : pentagon.o
+
+# target to build an object file
+pentagon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/pentagon.cpp.o
+.PHONY : pentagon.cpp.o
+
+pentagon.i: pentagon.cpp.i
+.PHONY : pentagon.i
+
+# target to preprocess a source file
+pentagon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/pentagon.cpp.i
+.PHONY : pentagon.cpp.i
+
+pentagon.s: pentagon.cpp.s
+.PHONY : pentagon.s
+
+# target to generate assembly for a file
+pentagon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/pentagon.cpp.s
+.PHONY : pentagon.cpp.s
+
+rhombus.o: rhombus.cpp.o
+.PHONY : rhombus.o
+
+# target to build an object file
+rhombus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rhombus.cpp.o
+.PHONY : rhombus.cpp.o
+
+rhombus.i: rhombus.cpp.i
+.PHONY : rhombus.i
+
+# target to preprocess a source file
+rhombus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rhombus.cpp.i
+.PHONY : rhombus.cpp.i
+
+rhombus.s: rhombus.cpp.s
+.PHONY : rhombus.s
+
+# target to generate assembly for a file
+rhombus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rhombus.cpp.s
+.PHONY : rhombus.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -261,18 +261,18 @@ help:
 	@echo "... GeronFormula.o"
 	@echo "... GeronFormula.i"
 	@echo "... GeronFormula.s"
-	@echo "... Hexagon.o"
-	@echo "... Hexagon.i"
-	@echo "... Hexagon.s"
-	@echo "... Pentagon.o"
-	@echo "... Pentagon.i"
-	@echo "... Pentagon.s"
-	@echo "... Rhombus.o"
-	@echo "... Rhombus.i"
-	@echo "... Rhombus.s"
+	@echo "... hexagon.o"
+	@echo "... hexagon.i"
+	@echo "... hexagon.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pentagon.o"
+	@echo "... pentagon.i"
+	@echo "... pentagon.s"
+	@echo "... rhombus.o"
+	@echo "... rhombus.i"
+	@echo "... rhombus.s"
 .PHONY : help
 
 

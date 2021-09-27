@@ -4,25 +4,25 @@
 CMakeFiles/Lab1.dir/GeronFormula.cpp.o: \
  ../GeronFormula.cpp \
  ../GeronFormula.h
-CMakeFiles/Lab1.dir/Hexagon.cpp.o: \
- ../Figure.h \
+CMakeFiles/Lab1.dir/hexagon.cpp.o: \
  ../GeronFormula.h \
- ../Hexagon.cpp \
- ../Hexagon.h
-CMakeFiles/Lab1.dir/Pentagon.cpp.o: \
- ../Figure.h \
- ../GeronFormula.h \
- ../Pentagon.cpp \
- ../Pentagon.h
-CMakeFiles/Lab1.dir/Rhombus.cpp.o: \
- ../Figure.h \
- ../GeronFormula.h \
- ../Rhombus.cpp \
- ../Rhombus.h
+ ../figure.h \
+ ../hexagon.cpp \
+ ../hexagon.h
 CMakeFiles/Lab1.dir/main.cpp.o: \
- ../Figure.h \
  ../GeronFormula.h \
- ../Hexagon.h \
- ../Pentagon.h \
- ../Rhombus.h \
- ../main.cpp
+ ../figure.h \
+ ../hexagon.h \
+ ../main.cpp \
+ ../pentagon.h \
+ ../rhombus.h
+CMakeFiles/Lab1.dir/pentagon.cpp.o: \
+ ../GeronFormula.h \
+ ../figure.h \
+ ../pentagon.cpp \
+ ../pentagon.h
+CMakeFiles/Lab1.dir/rhombus.cpp.o: \
+ ../GeronFormula.h \
+ ../figure.h \
+ ../rhombus.cpp \
+ ../rhombus.h

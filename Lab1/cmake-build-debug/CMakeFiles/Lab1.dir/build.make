@@ -79,31 +79,31 @@ CMakeFiles/Lab1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/main.cpp -o CMakeFiles/Lab1.dir/main.cpp.s
 
-CMakeFiles/Lab1.dir/Rhombus.cpp.o: CMakeFiles/Lab1.dir/flags.make
-CMakeFiles/Lab1.dir/Rhombus.cpp.o: ../Rhombus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab1.dir/Rhombus.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/Rhombus.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/Rhombus.cpp
+CMakeFiles/Lab1.dir/rhombus.cpp.o: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/rhombus.cpp.o: ../rhombus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab1.dir/rhombus.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/rhombus.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/rhombus.cpp
 
-CMakeFiles/Lab1.dir/Rhombus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/Rhombus.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/Rhombus.cpp > CMakeFiles/Lab1.dir/Rhombus.cpp.i
+CMakeFiles/Lab1.dir/rhombus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/rhombus.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/rhombus.cpp > CMakeFiles/Lab1.dir/rhombus.cpp.i
 
-CMakeFiles/Lab1.dir/Rhombus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/Rhombus.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/Rhombus.cpp -o CMakeFiles/Lab1.dir/Rhombus.cpp.s
+CMakeFiles/Lab1.dir/rhombus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/rhombus.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/rhombus.cpp -o CMakeFiles/Lab1.dir/rhombus.cpp.s
 
-CMakeFiles/Lab1.dir/Pentagon.cpp.o: CMakeFiles/Lab1.dir/flags.make
-CMakeFiles/Lab1.dir/Pentagon.cpp.o: ../Pentagon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab1.dir/Pentagon.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/Pentagon.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/Pentagon.cpp
+CMakeFiles/Lab1.dir/pentagon.cpp.o: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/pentagon.cpp.o: ../pentagon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab1.dir/pentagon.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/pentagon.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/pentagon.cpp
 
-CMakeFiles/Lab1.dir/Pentagon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/Pentagon.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/Pentagon.cpp > CMakeFiles/Lab1.dir/Pentagon.cpp.i
+CMakeFiles/Lab1.dir/pentagon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/pentagon.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/pentagon.cpp > CMakeFiles/Lab1.dir/pentagon.cpp.i
 
-CMakeFiles/Lab1.dir/Pentagon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/Pentagon.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/Pentagon.cpp -o CMakeFiles/Lab1.dir/Pentagon.cpp.s
+CMakeFiles/Lab1.dir/pentagon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/pentagon.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/pentagon.cpp -o CMakeFiles/Lab1.dir/pentagon.cpp.s
 
 CMakeFiles/Lab1.dir/GeronFormula.cpp.o: CMakeFiles/Lab1.dir/flags.make
 CMakeFiles/Lab1.dir/GeronFormula.cpp.o: ../GeronFormula.cpp
@@ -118,35 +118,35 @@ CMakeFiles/Lab1.dir/GeronFormula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/GeronFormula.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.cpp -o CMakeFiles/Lab1.dir/GeronFormula.cpp.s
 
-CMakeFiles/Lab1.dir/Hexagon.cpp.o: CMakeFiles/Lab1.dir/flags.make
-CMakeFiles/Lab1.dir/Hexagon.cpp.o: ../Hexagon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab1.dir/Hexagon.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/Hexagon.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/Hexagon.cpp
+CMakeFiles/Lab1.dir/hexagon.cpp.o: CMakeFiles/Lab1.dir/flags.make
+CMakeFiles/Lab1.dir/hexagon.cpp.o: ../hexagon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Lab1.dir/hexagon.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab1.dir/hexagon.cpp.o -c /Users/aleksejrozkov/CLionProjects/Lab1/hexagon.cpp
 
-CMakeFiles/Lab1.dir/Hexagon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/Hexagon.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/Hexagon.cpp > CMakeFiles/Lab1.dir/Hexagon.cpp.i
+CMakeFiles/Lab1.dir/hexagon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab1.dir/hexagon.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/aleksejrozkov/CLionProjects/Lab1/hexagon.cpp > CMakeFiles/Lab1.dir/hexagon.cpp.i
 
-CMakeFiles/Lab1.dir/Hexagon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/Hexagon.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/Hexagon.cpp -o CMakeFiles/Lab1.dir/Hexagon.cpp.s
+CMakeFiles/Lab1.dir/hexagon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab1.dir/hexagon.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/aleksejrozkov/CLionProjects/Lab1/hexagon.cpp -o CMakeFiles/Lab1.dir/hexagon.cpp.s
 
 # Object files for target Lab1
 Lab1_OBJECTS = \
 "CMakeFiles/Lab1.dir/main.cpp.o" \
-"CMakeFiles/Lab1.dir/Rhombus.cpp.o" \
-"CMakeFiles/Lab1.dir/Pentagon.cpp.o" \
+"CMakeFiles/Lab1.dir/rhombus.cpp.o" \
+"CMakeFiles/Lab1.dir/pentagon.cpp.o" \
 "CMakeFiles/Lab1.dir/GeronFormula.cpp.o" \
-"CMakeFiles/Lab1.dir/Hexagon.cpp.o"
+"CMakeFiles/Lab1.dir/hexagon.cpp.o"
 
 # External object files for target Lab1
 Lab1_EXTERNAL_OBJECTS =
 
 Lab1: CMakeFiles/Lab1.dir/main.cpp.o
-Lab1: CMakeFiles/Lab1.dir/Rhombus.cpp.o
-Lab1: CMakeFiles/Lab1.dir/Pentagon.cpp.o
+Lab1: CMakeFiles/Lab1.dir/rhombus.cpp.o
+Lab1: CMakeFiles/Lab1.dir/pentagon.cpp.o
 Lab1: CMakeFiles/Lab1.dir/GeronFormula.cpp.o
-Lab1: CMakeFiles/Lab1.dir/Hexagon.cpp.o
+Lab1: CMakeFiles/Lab1.dir/hexagon.cpp.o
 Lab1: CMakeFiles/Lab1.dir/build.make
 Lab1: CMakeFiles/Lab1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Lab1"

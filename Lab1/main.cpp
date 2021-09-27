@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Rhombus.h"
-#include "Hexagon.h"
-#include "Pentagon.h"
+#include "rhombus.h"
+#include "hexagon.h"
+#include "pentagon.h"
 
 using std::cin;
 using std::cout;
@@ -10,9 +10,8 @@ using std::cout;
 
 
 void test(){
-    Pentagon p;
-    cin >> p;
-    p.Print();
+    Pentagon p(cin);
+    p.Print(cout);
     cout << p.Area();
 
 }
