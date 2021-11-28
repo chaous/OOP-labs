@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/aleksejrozkov/CLionProjects/Lab3/Node.h
+figure.h
+/Users/aleksejrozkov/CLionProjects/Lab3/figure.h
+pentagon.h
+/Users/aleksejrozkov/CLionProjects/Lab3/pentagon.h
+memory
+-
+
+/Users/aleksejrozkov/CLionProjects/Lab3/figure.h
+iostream
+/Users/aleksejrozkov/CLionProjects/Lab3/iostream
+utility
+-
+math.h
+-
+cmath
+-
+
+/Users/aleksejrozkov/CLionProjects/Lab3/pentagon.h
+figure.h
+/Users/aleksejrozkov/CLionProjects/Lab3/figure.h
+vector
+-
+
+/Users/aleksejrozkov/CLionProjects/Lab3/tbinarytree.cpp
+tbinarytree.h
+/Users/aleksejrozkov/CLionProjects/Lab3/tbinarytree.h
+stdexcept
+/Users/aleksejrozkov/CLionProjects/Lab3/stdexcept
+
+/Users/aleksejrozkov/CLionProjects/Lab3/tbinarytree.h
+Node.h
+/Users/aleksejrozkov/CLionProjects/Lab3/Node.h
+pentagon.h
+/Users/aleksejrozkov/CLionProjects/Lab3/pentagon.h
+
