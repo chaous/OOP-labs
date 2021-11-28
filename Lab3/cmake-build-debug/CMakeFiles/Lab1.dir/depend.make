@@ -4,11 +4,6 @@
 CMakeFiles/Lab1.dir/GeronFormula.cpp.o: \
  ../GeronFormula.cpp \
  ../GeronFormula.h
-CMakeFiles/Lab1.dir/Node.cpp.o: \
- ../Node.cpp \
- ../Node.h \
- ../figure.h \
- ../pentagon.h
 CMakeFiles/Lab1.dir/hexagon.cpp.o: \
  ../GeronFormula.h \
  ../figure.h \
@@ -31,9 +26,3 @@ CMakeFiles/Lab1.dir/rhombus.cpp.o: \
  ../figure.h \
  ../rhombus.cpp \
  ../rhombus.h
-CMakeFiles/Lab1.dir/tbinarytree.cpp.o: \
- ../Node.h \
- ../figure.h \
- ../pentagon.h \
- ../tbinarytree.cpp \
- ../tbinarytree.h

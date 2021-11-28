@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/aleksejrozkov/CLionProjects/Lab2/Node.cpp
-Node.h
-/Users/aleksejrozkov/CLionProjects/Lab2/Node.h
-memory
+/Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.h
+utility
+-
+vector
 -
 
-/Users/aleksejrozkov/CLionProjects/Lab2/Node.h
-figure.h
-/Users/aleksejrozkov/CLionProjects/Lab2/figure.h
-pentagon.h
-/Users/aleksejrozkov/CLionProjects/Lab2/pentagon.h
-memory
--
-
-/Users/aleksejrozkov/CLionProjects/Lab2/figure.h
+/Users/aleksejrozkov/CLionProjects/Lab1/figure.h
 iostream
-/Users/aleksejrozkov/CLionProjects/Lab2/iostream
+/Users/aleksejrozkov/CLionProjects/Lab1/iostream
 utility
 -
 math.h
@@ -30,19 +22,31 @@ math.h
 cmath
 -
 
-/Users/aleksejrozkov/CLionProjects/Lab2/pentagon.h
+/Users/aleksejrozkov/CLionProjects/Lab1/hexagon.h
 figure.h
-/Users/aleksejrozkov/CLionProjects/Lab2/figure.h
+/Users/aleksejrozkov/CLionProjects/Lab1/figure.h
+GeronFormula.h
+/Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.h
+
+/Users/aleksejrozkov/CLionProjects/Lab1/main.cpp
+iostream
+-
+rhombus.h
+/Users/aleksejrozkov/CLionProjects/Lab1/rhombus.h
+hexagon.h
+/Users/aleksejrozkov/CLionProjects/Lab1/hexagon.h
+pentagon.h
+/Users/aleksejrozkov/CLionProjects/Lab1/pentagon.h
+
+/Users/aleksejrozkov/CLionProjects/Lab1/pentagon.h
+figure.h
+/Users/aleksejrozkov/CLionProjects/Lab1/figure.h
 vector
 -
 
-/Users/aleksejrozkov/CLionProjects/Lab2/tbinarytree.cpp
-tbinarytree.h
-/Users/aleksejrozkov/CLionProjects/Lab2/tbinarytree.h
-
-/Users/aleksejrozkov/CLionProjects/Lab2/tbinarytree.h
-Node.h
-/Users/aleksejrozkov/CLionProjects/Lab2/Node.h
-pentagon.h
-/Users/aleksejrozkov/CLionProjects/Lab2/pentagon.h
+/Users/aleksejrozkov/CLionProjects/Lab1/rhombus.h
+figure.h
+/Users/aleksejrozkov/CLionProjects/Lab1/figure.h
+utility
+-
 

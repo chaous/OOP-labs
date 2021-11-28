@@ -8,13 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/aleksejrozkov/CLionProjects/Lab2/GeronFormula.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/GeronFormula.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/Node.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/Node.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/hexagon.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/hexagon.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/main.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/pentagon.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/pentagon.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/rhombus.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/rhombus.cpp.o"
-  "/Users/aleksejrozkov/CLionProjects/Lab2/tbinarytree.cpp" "/Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles/Lab1.dir/tbinarytree.cpp.o"
+  "/Users/aleksejrozkov/CLionProjects/Lab1/GeronFormula.cpp" "/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/GeronFormula.cpp.o"
+  "/Users/aleksejrozkov/CLionProjects/Lab1/hexagon.cpp" "/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/hexagon.cpp.o"
+  "/Users/aleksejrozkov/CLionProjects/Lab1/main.cpp" "/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/main.cpp.o"
+  "/Users/aleksejrozkov/CLionProjects/Lab1/pentagon.cpp" "/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/pentagon.cpp.o"
+  "/Users/aleksejrozkov/CLionProjects/Lab1/rhombus.cpp" "/Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles/Lab1.dir/rhombus.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

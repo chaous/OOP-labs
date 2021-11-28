@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/aleksejrozkov/CLionProjects/Lab2
+CMAKE_SOURCE_DIR = /Users/aleksejrozkov/CLionProjects/Lab1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles /Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles /Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksejrozkov/CLionProjects/Lab2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/aleksejrozkov/CLionProjects/Lab1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,30 +152,6 @@ GeronFormula.s: GeronFormula.cpp.s
 GeronFormula.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/GeronFormula.cpp.s
 .PHONY : GeronFormula.cpp.s
-
-Node.o: Node.cpp.o
-.PHONY : Node.o
-
-# target to build an object file
-Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Node.cpp.o
-.PHONY : Node.cpp.o
-
-Node.i: Node.cpp.i
-.PHONY : Node.i
-
-# target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Node.cpp.i
-.PHONY : Node.cpp.i
-
-Node.s: Node.cpp.s
-.PHONY : Node.s
-
-# target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/Node.cpp.s
-.PHONY : Node.cpp.s
 
 hexagon.o: hexagon.cpp.o
 .PHONY : hexagon.o
@@ -273,30 +249,6 @@ rhombus.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/rhombus.cpp.s
 .PHONY : rhombus.cpp.s
 
-tbinarytree.o: tbinarytree.cpp.o
-.PHONY : tbinarytree.o
-
-# target to build an object file
-tbinarytree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/tbinarytree.cpp.o
-.PHONY : tbinarytree.cpp.o
-
-tbinarytree.i: tbinarytree.cpp.i
-.PHONY : tbinarytree.i
-
-# target to preprocess a source file
-tbinarytree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/tbinarytree.cpp.i
-.PHONY : tbinarytree.cpp.i
-
-tbinarytree.s: tbinarytree.cpp.s
-.PHONY : tbinarytree.s
-
-# target to generate assembly for a file
-tbinarytree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lab1.dir/build.make CMakeFiles/Lab1.dir/tbinarytree.cpp.s
-.PHONY : tbinarytree.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -309,9 +261,6 @@ help:
 	@echo "... GeronFormula.o"
 	@echo "... GeronFormula.i"
 	@echo "... GeronFormula.s"
-	@echo "... Node.o"
-	@echo "... Node.i"
-	@echo "... Node.s"
 	@echo "... hexagon.o"
 	@echo "... hexagon.i"
 	@echo "... hexagon.s"
@@ -324,9 +273,6 @@ help:
 	@echo "... rhombus.o"
 	@echo "... rhombus.i"
 	@echo "... rhombus.s"
-	@echo "... tbinarytree.o"
-	@echo "... tbinarytree.i"
-	@echo "... tbinarytree.s"
 .PHONY : help
 
 

@@ -10,10 +10,9 @@ using std::cout;
 
 
 void test(){
-    Pentagon r, r2;
-    cin >> r;
-    r2 = r;
-    cout << (r2 == r);
+    Pentagon p(cin);
+    p.Print(cout);
+    cout << p.Area();
 
 }
 
