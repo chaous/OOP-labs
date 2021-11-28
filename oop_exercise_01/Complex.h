@@ -36,6 +36,15 @@ class Complex {
     Complex& operator*=(const Complex& a);
     Complex& operator*=(Complex& a);
     Complex conj() const;
+    float abs() const;
+    bool operator<(const Complex& a) const;
+    bool operator<(Complex& a) const;
+    bool operator>(const Complex& a) const;
+    bool operator>(Complex& a) const;
+    bool operator>=(const Complex& a) const;
+    bool operator>=(Complex& a) const;
+    bool operator<=(const Complex& a) const;
+    bool operator<=(Complex& a) const;
 
 
 protected:

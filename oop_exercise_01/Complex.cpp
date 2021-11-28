@@ -3,6 +3,7 @@
 //
 
 #include "Complex.h"
+#include <cmath>
 
 Complex::Complex() : _real(0), _imag(0){
 
@@ -151,5 +152,41 @@ Complex Complex::conj() const {
     a._real = _real;
     a._imag = (-1) * _imag;
     return a;
+}
+
+float Complex::abs() const {
+    return sqrt(_real * _real + _imag * _imag);
+}
+
+bool Complex::operator<(const Complex &a) const {
+    return this->abs() < a.abs();
+}
+
+bool Complex::operator<(Complex &a) const {
+    return this->abs() < a.abs();
+}
+
+bool Complex::operator>(const Complex &a) const {
+    return this->abs() > a.abs();
+}
+
+bool Complex::operator>(Complex &a) const {
+    return this->abs() > a.abs();
+}
+
+bool Complex::operator>=(const Complex &a) const {
+    return this->abs() >= a.abs();
+}
+
+bool Complex::operator>=(Complex &a) const {
+    return this->abs() >= a.abs();
+}
+
+bool Complex::operator<=(const Complex &a) const {
+    return this->abs() <= a.abs();
+}
+
+bool Complex::operator<=(Complex &a) const {
+    return this->abs() <= a.abs();
 }
 
